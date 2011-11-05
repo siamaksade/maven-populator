@@ -68,7 +68,7 @@ public class App {
 		} catch (ParseException e) {
 			System.out.println(e.getMessage());
 			System.out.println();
-			new HelpFormatter().printHelp("maven-populator", options, true);
+			new HelpFormatter().printHelp(100, "maven-populator", "", options, "", true);
 		}
 
 		return null;

@@ -1,0 +1,10 @@
+Maven Populator is a tool for mass deploying jar files into a maven repository. It uses the maven deploy plugin for uploading the artifacts which makes it possible to deploy artifacts to any maven repository manager such as Nexus, Artifactory, etc.
+
+Usage: maven-populator -d <path> -jm <groupId> -jv <version> -m <url> -p <password> -u <username>
+
+ -d,--dir <path>                target directory for scaning
+ -jm,--jar-group-id <groupId>   groupId for all jar files
+ -jv,--jar-version <version>    version for all jar files
+ -m,--repo-url <url>            maven repository url
+ -p,--password <password>       maven deployer password
+ -u,--username <username>       maven deployer username
